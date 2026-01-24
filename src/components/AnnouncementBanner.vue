@@ -11,8 +11,7 @@
         <b-button
             size="lg"
             variant="custom-primary"
-            href="https://www.jmktrust.org/2022/07/jmk-award-winner-2022/"
-            target="_blank"
+            @click="handleClick('shows')"
         >
             Find Out More
         </b-button>
@@ -22,6 +21,12 @@
 <script>
     export default {
         name: 'AnnouncementBanner',
+
+        methods: {
+            handleClick(refName) {
+                this.$emit('announcementClicked', refName)
+            }
+        }
     }
 </script>
 
