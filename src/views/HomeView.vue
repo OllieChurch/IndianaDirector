@@ -3,7 +3,8 @@
 		<GreetingHeader :profileIamge="content.profileImage"
 			:headerBackgroundImage="imageSrc(content.headerBackgroundImage)" />
 		<NavBar :includePress="includePress" @navClicked="refName => scrollMeTo(refName)" />
-		<!-- <JmkAward /> -->
+		<AnnouncementBanner 
+			@announcementClicked="refName => scrollMeTo(refName)" />
 
 		<div ref="about">
 			<AboutMe :aboutMeText="content.aboutMeText" :aboutMeImage="content.aboutMeImage"
@@ -152,8 +153,8 @@
 import contentJson from '../contentManagement/content.json'
 import NavBar from '@/components/NavBar.vue'
 import GreetingHeader from '@/components/GreetingHeader.vue'
-// import JmkAward from '@/components/JmkAward.vue'
 import AboutMe from '@/components/AboutMe.vue'
+import AnnouncementBanner from '@/components/AnnouncementBanner.vue'
 
 export default {
 	name: 'HomeView',
@@ -161,7 +162,7 @@ export default {
 	components: {
 		GreetingHeader,
 		NavBar,
-		// JmkAward,
+		AnnouncementBanner,
 		AboutMe
 	},
 
