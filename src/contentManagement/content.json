@@ -80,6 +80,17 @@
   ],
   "currentWorkList": [
     {
+      "currentWorkTitle": "Love's Labour's Lost at Shakespeare's Globe",
+      "currentWorkText": "This Summer, see Shakespeare’s Love’s Labour’s Lost as you’ve never experienced it before, in this blazing, flamenco-inspired new production. Passion, power, and poetry collide as four women arrive in Navarre on a diplomatic mission, testing the devotion of the King and his lords whose vows are undone by love, desire and wit. In her Globe Theatre directing debut, Associate Artist Indiana Lown-Collins (former Globe Resident Artist, JMK Award winner for The Solid Life of Sugar Water, Orange Tree Theatre) channels the warmth and vibrancy of her rural Spanish roots into this celebrated comedy, igniting it with the feeling and artistry of flamenco. Step into a world of rhythm and fiery romantic tension, where joy and revelry mingle with longing, grief, and melancholy. Rarely staged, Love’s Labour’s Lost is a raw, refreshingly human comedy that celebrates our desire for connection and dares to leave love unresolved. “All is not won that is desired.”",
+      "currentWorkImages": [
+        {
+          "workImage": "/public/admin/imageUploads/screenshot-2026-01-26-124908.png",
+          "workImageAlt": "Theatre promotional poster for Shakespeare's Globe production of Love's Labour's Lost. Shows five performers in colorful flamenco-style dresses and period costumes dancing against a weathered stone wall. The performers wear red, yellow, teal, and black costumes with traditional Spanish details. White text overlays announce the play title, tagline 'When vows break, hearts rise', writer William Shakespeare, venue Globe Theatre, dates 17 July-13 September, and tickets from £5."
+        }
+      ],
+      "currentWorkTickets": "https://www.shakespearesglobe.com/whats-on/loves-labours-lost"
+    },
+    {
       "currentWorkTitle": "Pinocchio by Michael Morpurgo, adapted by Simon Reade",
       "currentWorkText": "Indiana Lown-Collins and Elle While (Co-Directors) brought Simon Reade’s adaptation of Michael Morpurgo’s artfully told, funny and anarchic story of our favourite puppet boy Pinocchio to life, at The Watermill Theatre (Christmas 2024). This production was named one of the 'Top 10 shows of 2024' by the Guardian. Audiences joined us on an adventure into a magical world where things weren't always what they seemed.",
       "currentWorkImages": [
