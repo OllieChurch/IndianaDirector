@@ -1,6 +1,6 @@
 <template>
     <b-jumbotron
-        header="Just Announced: Indiana will be directing Love's Labour's Lost at Shakespeare's Globe"
+        header="Indiana will be directing Love's Labour's Lost at Shakespeare's Globe"
         lead="Showing 17 July to 13 September 2026"
         fluid
         class="announcement-jumbotron text-white py-5"
