@@ -154,7 +154,7 @@ import contentJson from '../contentManagement/content.json'
 import NavBar from '@/components/NavBar.vue'
 import GreetingHeader from '@/components/GreetingHeader.vue'
 import AboutMe from '@/components/AboutMe.vue'
-import AnnouncementBanner from '@/components/AnnouncementBanner.vue'
+// import AnnouncementBanner from '@/components/AnnouncementBanner.vue'
 
 export default {
 	name: 'HomeView',
@@ -162,7 +162,7 @@ export default {
 	components: {
 		GreetingHeader,
 		NavBar,
-		AnnouncementBanner,
+		// AnnouncementBanner,
 		AboutMe
 	},
 
