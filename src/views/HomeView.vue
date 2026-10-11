@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<GreetingHeader :profileIamge="content.profileImage"
+		<GreetingHeader :profileImage="content.profileImage"
 			:headerBackgroundImage="imageSrc(content.headerBackgroundImage)" />
 		<NavBar :includePress="includePress" @navClicked="refName => scrollMeTo(refName)" />
 		<AnnouncementBanner 
