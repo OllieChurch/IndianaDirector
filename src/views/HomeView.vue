@@ -3,8 +3,8 @@
 		<GreetingHeader :profileImage="content.profileImage"
 			:headerBackgroundImage="imageSrc(content.headerBackgroundImage)" />
 		<NavBar :includePress="includePress" @navClicked="refName => scrollMeTo(refName)" />
-		<AnnouncementBanner 
-			@announcementClicked="refName => scrollMeTo(refName)" />
+		<!-- <AnnouncementBanner 
+			@announcementClicked="refName => scrollMeTo(refName)" /> -->
 
 		<div ref="about">
 			<AboutMe :aboutMeText="content.aboutMeText" :aboutMeImage="content.aboutMeImage"
