@@ -53,6 +53,7 @@
     .profile-img {
         height: 250px;
         aspect-ratio: 1/1;
+        object-fit: cover;
     }
 
     .surname {
